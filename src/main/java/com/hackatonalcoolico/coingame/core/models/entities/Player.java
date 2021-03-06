@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Entity
 @Getter
 @Setter
-public class Player {
+public class Player  {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long playerId;
